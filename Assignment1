@@ -1,0 +1,11 @@
+consonants=0
+n=input("enter string")
+string=n.lower()
+for i in range(0,len(string)):
+    if string[i] not in("a","e","i","o","u"):
+        consonants=consonants+1 
+print("the count of string is",consonants)
+
+Enter string
+bhuvana
+the count of string is 4
